@@ -1,0 +1,96 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f7f7f7; /* Light gray background color */
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    }
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    table td {
+    vertical-align: top;
+    padding: 10px;
+    }
+    h1 {
+    margin-top: 0;
+    color: #333; /* Dark gray color for the name */
+    font-size: 36px;
+    }
+    h3 {
+    color: #555; /* Slightly lighter gray for the subheading */
+    font-size: 20px;
+    }
+    h2 {
+    margin-top: 20px;
+    color: #007bff; /* Blue color for section headers */
+    font-size: 24px;
+    border-bottom: 2px solid #007bff; /* Underline effect for section headers */
+    padding-bottom: 5px; /* Spacing between header and underline */
+    }
+    ul {
+    list-style: none;
+    padding: 0;
+    }
+    ul li {
+    margin-bottom: 5px;
+    }
+    strong {
+    font-weight: bold;
+    }
+    /* Styling for the profile picture */
+    table img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border: 5px solid #fff; /* White border around the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+    }
+    /* Hover effect for the profile picture */
+    table img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+    }
+    /* Styling for contact information section */
+    h2 + ul {
+    margin-top: 10px; /* Increased margin for better separation */
+    padding-left: 20px; /* Indentation for better alignment */
+    }
+    /* Styling for the education section */
+    ul ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    }
+    /* Styling for the experience section */
+    ul li ul li {
+    margin-left: 20px;
+    }
+    /* Styling for the skills section */
+    h2 + ul {
+    columns: 2; /* Split into two columns */
+    column-gap: 40px;
+    }
+    /* Additional styles for links */
+    a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition on hover */
+    }
+    a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue color on hover */
+    }
+    /* Highlight on hover effect for sections */
+    h2:hover {
+    background-color: #f1f1f1;
+    border-bottom-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
